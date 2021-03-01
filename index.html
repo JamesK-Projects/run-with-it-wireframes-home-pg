@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="app-name">
+            <h1>Run With It</h1>
+        </div>
+        <nav>
+            <span>Login In / Create Account</span>
+            <span>Home Page</span>
+            <span>Your Progress</span>
+            <span>Past Run Data</span>
+        </nav>
+    </header>
+    <main>
+        <div class="goal">
+            <h2>My Goal:</h2>
+            I want to run 
+            <input type="text" placeholder="Distance">
+            with an average pace of
+            <input type="text" placeholder="Pace">
+            <button>Set Goal!</button>
+        </div>
+        <div class="run-data">
+            <h2>Log your run</h2>
+            <labelfor id="date">Today's Date</labelfor><br/>
+            <input type="date" id="date" class="date"><br/>
+            <labelfor id="distance">How far did you run?</labelfor><br/>
+            <input type="text" id="distance" class="distance" placeholder="Distance"><br/>
+            <labelfor id="time">How long did you run for?</labelfor><br/>
+            <input type="text" id="time" class="time" placeholder="Time"><br/>
+            <labelfor id="notes">Anything to note?</labelfor><br/>
+            <input type="text" id="notes" class="notes"><br/>
+            <button>Submit</button>
+        </div>
+    </main>
+</body>
+</html>
